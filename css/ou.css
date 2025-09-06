@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+:root{
+    --secand-Color:beige
+}
+body p{
+    color: #555555;
+}
+
+
+header{
+    background-image: url(../lmeg/اوريكس.jpg);
+    background-size: 100% 100%;
+
+}
+
+header a{
+    color: white !important;
+}
+header a:hover{
+    color: bisque !important;
+
+}
+header h1{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line{
+    width:10% ;
+    height: 3px;
+    background-color:#1b7c2b;
+    margin: auto;
+}
+
+
+.about{
+    position: relative;
+    
+}
+.about h2::after{
+    content: "";
+    width: 50%;
+    height: 4px;
+    background-color:var(--secand-Color);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* .about h2::before{
+    content: "ABOUT ME";
+    font-size: 80px;
+    font-weight: bolder;
+    color: #dddddd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+} */
+
+.Way-about-section{
+    background-color:#dddddd ;
+   
+    height: 1px;
+
+}
+
+
+
+.div-row-about-line{
+    border-right: 1px solid #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services{
+  background:#fff;           /* يمكن تغييره لـ var(--bg) لو بدك خلفية رمادية خفيفة */
+  padding:64px 16px;
+}
+.container{
+  max-width:900px;
+  margin:0 auto;
+}
+
+/* ====== عنوان القسم مع خط سفلي أخضر ====== */
+.section-title{
+  text-align:center;
+  font-size:32px;
+  font-weight:700;
+  margin:0 0 32px;
+}
+.section-title::after{
+  content:"";
+  display:block;
+  width:120px;
+  height:4px;
+  background:var(--accent);
+  border-radius:3px;
+  margin:10px auto 0;
+}
+
+/* ====== عنصر الخدمة ====== */
+.service{
+  display:flex;
+  gap:14px;
+  padding:14px 0;
+  border-bottom:1px solid #eee;    /* فاصل خفيف مثل الصورة */
+}
+.service:last-child{border-bottom:none;}
+
+.icon{
+  flex:0 0 40px;
+  height:40px;
+  width:40px;
+  border-radius:8px;
+  background:#e9f7f4;              /* خلفية خضراء باهتة للأيقونة */
+  color:var(--accent);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:18px;
+  margin-top:4px;                   /* محاذاة مع العنوان */
+}
+
+.text h3{
+  margin:0 0 6px;
+  font-size:22px;
+  font-weight:700;
+  color:var(--title);
+}
+.text p{
+  margin:0;
+  color:var(--muted);
+  line-height:1.6;
+  font-size:15.5px;
+}
+
+/* ====== تجاوبية للموبايل ====== */
+@media (max-width: 480px){
+  .section-title{ font-size:26px; }
+  .icon{ width:36px; height:36px; font-size:16px; }
+  .text h3{ font-size:20px; }
+}

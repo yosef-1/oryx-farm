@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- ملاحظة: يفضّل استخدام مسارات نسبية (مثال: css/ou.css) -->
+  <link rel="stylesheet" href="d:\html\css\ou.css">
+  <link rel="stylesheet" href="d:\html\css\bootstrap.min.css">
+
+  <style>
+    /* يخلي المحتوى ما يختبئ خلف النافبار الثابت */
+    /* body{ padding-top:70px; font-family:"Montserrat", sans-serif; } */
+    /* يضمن أن النافبار فوق كل شيء */
+    .navbar{ z-index:1030; }
+  </style>
+</head>
+<body>
+  <header class="vh-100 bg-beige text-center text-white ">
+    <!-- أضفت navbar-dark وحافظت على باقي كلاسّاتك -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black position-fixed top-0 end-0 start-0">
+      <div class="container ">
+        <a class="navbar-brand fa-2x fa-bold" href="#">Oryx Cows Farm</a>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">what i Do</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">client</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">contact</a></li>
+          </ul> <!-- ← كان ناقص إغلاق الـ ul -->
+        </div>
+      </div>
+    </nav>
+
+    <div class="bg-dark opacity-75 w-100 h-100 d-flex justify-content-center align-items-center">
+
+      <div>
+        <h1>Welcome</h1>
+        <h2>Oryx Farm</h2>
+        <p class="mt-3 pt-3">A UAE-based company managed by Emiratis</p>
+        <button class="btn btn-outline-success p-3 rounded-pill">hire me</button>
+      </div>
+
+      <div class="bg-secondary p-1 position-fixed top-50 end-0 rounded-2 ">
+        <i class="fa-light fa-hippo fa-spin"></i>
+      </div>
+
+      <!-- تصحيح translate-middle -->
+      <div class="align-self-end position-absolute translate-middle">
+        <i class="fa-solid fa-arrow-down"></i>
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+<section class="about mt-5 pt-5  container  ">
+
+  <h2 class="text-center">Know me more</h2>
+  <div class="line"></div>
+  <div class="row mt-5">
+    <div class="col-lg-5 col-md-5 col-sm-12 ">
+      <div>
+       <h5><span class="text-success">Oryx Cows & Sheep Farm</span></h5>
+       <p>Founded in Al Ain in 2018, Oryx Farm is a leading Emirati company specializing in cattle and sheep farming. The farm provides a wide range of services and products to serve all categories, including individuals, restaurants, companies, and markets.
+
+Under Emirati management, the farm is committed to the highest standards of livestock care and product quality. Oryx Farm plays an active role in supporting food security and delivering safe, healthy products to the community. Its vision combines traditional livestock expertise with modern practices to ensure the best outcomes.</p>
+      </div>
+    </div>
+    <div class="col-lg-6    col-md-5 col-sm-12  offset-1">
+      <div class="my-3 pt-4">
+
+<div class="d-flex ">
+        <h5>
+          Name:
+        </h5>
+        <span>
+          Oryx Farm
+        </span>
+      </div>
+      <div class="Way-about-section">
+
+      </div>
+    </div>
+      <div class="my-3 pt-4">
+
+<div class="d-flex ">
+        <h5>
+          lnstagram:
+        </h5>
+        <span>
+          <a href="https://www.instagram.com/oryxlivestock?igsh=MWlhZjRuYWh2ZmU1bA== " target="_blank">my instagram</a>
+        </span>
+      </div>
+      <div class="Way-about-section">
+
+      </div>
+    </div>
+      <div class="my-3 pt-4">
+
+<div class="d-flex ">
+        <h5>
+          Established in:
+        </h5>
+        <span>
+          2018
+        </span>
+      </div>
+      <div class="Way-about-section">
+
+      </div>
+    </div>
+      <div class="my-3 pt-4">
+
+<div class="d-flex ">
+        <h5>
+          From:
+        </h5>
+        <span>
+          Al Ain, United Arab Emirates
+        </span>
+      </div>
+      <div class="Way-about-section">
+
+      </div>
+    </div>
+    <button class="btn btn-outline-success p-4 rounded-pill"> Download CV</button>
+
+      </div>
+
+<br>
+<br>
+
+
+
+      <div class="col-lg-3 mt-4">
+<div class="text-center  div-row-about-line">
+
+<h3>7+</h3>
+Years Experiance
+
+
+
+
+</div>
+
+      </div>
+      <div class="col-lg-3 mt-4">
+<div class="text-center  div-row-about-line">
+
+<h3>500+</h3>
+Happy client
+
+
+
+
+</div>
+
+      </div>
+      <div class="col-lg-3 mt-4">
+<div class="text-center  div-row-about-line">
+
+<h3>4.8/5</h3>
+Average Rating
+
+
+
+
+</div>
+
+      </div>
+      <div class="col-lg-3 mt-4">
+<div class="text-center  div-row-about-line">
+
+<h3>100+</h3>
+Positive Reviews
+
+
+
+
+</div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+<style>
+  .services {
+    max-width: 900px;
+    margin: 50px auto;
+  }
+  .section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    position: relative;
+  }
+  .section-title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #1abc9c;
+    margin: 8px auto 0;
+    border-radius: 3px;
+  }
+  .service {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .service .icon {
+    flex: 0 0 50px;
+    height: 50px;
+    background: #e8f9f5;
+    color: #1abc9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 8px;
+  }
+  .service .text h3 {
+    margin: 0 0 6px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+  }
+  .service .text p {
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+  }
+</style>
+
+<div class="container services">
+
+  <h2 class="section-title">What We Do</h2>
+
+  <div class="service">
+    <div class="icon"><i class="fa-solid fa-cow"></i></div>
+    <div class="text">
+      <h3>Cattle & Sheep Farming</h3>
+      <p>Breeding and raising high-quality cattle and sheep under strict care and welfare standards in Al Ain.</p>
+    </div>
+  </div>
+
+  <div class="service">
+    <div class="icon"><i class="fa-solid fa-drumstick-bite"></i></div>
+    <div class="text">
+      <h3>Fresh Meat Supply (Beef & Lamb)</h3>
+      <p>Daily supply of fresh beef and lamb—handled hygienically and prepared to your specifications.</p>
+    </div>
+  </div>
+
+  <div class="service">
+    <div class="icon"><i class="fa-solid fa-store"></i></div>
+    <div class="text">
+      <h3>Wholesale & Retail Orders</h3>
+      <p>Serving individuals, restaurants, butchers, and markets with flexible order sizes and fair pricing.</p>
+    </div>
+  </div>
+
+  <div class="service">
+    <div class="icon"><i class="fa-solid fa-utensils"></i></div>
+    <div class="text">
+      <h3>Custom Butchering & Cutting</h3>
+      <p>Portioning, trimming, and packaging as requested—ready for kitchens, grills, and retail shelves.</p>
+    </div>
+  </div>
+
+  <div class="service">
+    <div class="icon"><i class="fa-solid fa-truck"></i></div>
+    <div class="text">
+      <h3>Cold-Chain Delivery</h3>
+      <p>Reliable, temperature-controlled delivery across Al Ain and the wider UAE to keep products fresh.</p>
+    </div>
+  </div>
+
+  <div class="service">
+    <div class="icon"><i class="fa-solid fa-headset"></i></div>
+    <div class="text">
+      <h3>Customer Support & Farm Visits</h3>
+      <p>Dedicated support for inquiries and scheduled farm visits for partners and clients.</p>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .gallery {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 15px;
+  }
+  .gallery-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .gallery-title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #1abc9c;
+    margin: 8px auto 0;
+    border-radius: 3px;
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  .gallery-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  .gallery-grid img:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+<section class="gallery">
+  <h2 class="gallery-title">Our Production at Oryx Farm</h2>
+  <div class="gallery-grid">
+    <img src="/html/lmeg/اوريكس.jpg" alt="أبقار المزرعة">
+    <img src="/html/lmeg/عجل.jpg" alt="أغنام المزرعة">
+    <img src="/html/lmeg/خروف.jpg" alt="لحوم طازجة">
+    <img src="/html/lmeg/حلو.jpg" alt="منتجات الألبان">
+    <img src="/html/lmeg/بقرة.jpg" alt="مزرعة أوريكس">
+    <img src="/html/lmeg/ملحمة.jpg" alt="خدمة التوصيل المبرد">
+    <img src="/html/lmeg/عجل2.jpg" alt="خدمة التوصيل المبرد">
+    <img src="/html/lmeg/جمل.jpg" alt="خدمة التوصيل المبرد">
+    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+  <!-- لو ملف JS محلي تأكد من المسار الصحيح داخل مشروعك -->
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
